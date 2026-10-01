@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=230&section=header&text=Aniket%20Kharose&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%2FML%20%E2%80%A2%20Embedded%20Systems%20%E2%80%A2%20Edge%20AI&descAlignY=60&descSize=20" alt="Aniket Kharose banner" />
 
 <a href="https://github.com/aniketkharose">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=A78BFA&center=true&vCenter=true&width=720&height=50&lines=Building+AI+systems+that+work+in+the+real+world;From+computer+vision+to+embedded+hardware;Face+%E2%80%A2+Voice+%E2%80%A2+Pose+%E2%80%A2+Resume+Intelligence;Currently+exploring+Edge+AI+on+ESP32" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=A78BFA&center=true&vCenter=true&width=820&height=50&lines=Building+AI+systems+that+work+in+the+real+world;From+computer+vision+to+embedded+hardware;Face+%E2%80%A2+Voice+%E2%80%A2+Pose+%E2%80%A2+Resume+Intelligence;Currently+exploring+Edge+AI+on+ESP32" alt="Typing animation" />
 </a>
 
 <br/>
@@ -115,33 +115,41 @@ Right now I'm exploring how to run **ML models directly on ESP32 and microcontro
 
 **Languages and Core**
 
-<img src="https://skillicons.dev/icons?i=py,c,numpy,pandas,sklearn&theme=dark" alt="Languages" />
+<p>
+  <img src="https://skillicons.dev/icons?i=py,c,sklearn&theme=dark" alt="Python, C, scikit-learn" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+</p>
 
 **ML, DL and Vision**
 
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv&theme=dark" alt="ML" />
-&nbsp;
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white)
-![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white)
+<p>
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv&theme=dark" alt="TensorFlow, PyTorch, OpenCV" />
+  <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white" alt="MediaPipe" />
+  <img src="https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white" alt="spaCy" />
+</p>
 
 **Backend, Apps and Data**
 
-<img src="https://skillicons.dev/icons?i=fastapi,supabase&theme=dark" alt="Backend" />
-&nbsp;
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+<p>
+  <img src="https://skillicons.dev/icons?i=fastapi,supabase&theme=dark" alt="FastAPI, Supabase" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+</p>
 
 **Embedded and Hardware**
 
-<img src="https://skillicons.dev/icons?i=arduino,matlab&theme=dark" alt="Embedded" />
-&nbsp;
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![PCB Design](https://img.shields.io/badge/PCB%20Design-2E7D32?style=for-the-badge)
+<p>
+  <img src="https://skillicons.dev/icons?i=arduino,matlab&theme=dark" alt="Arduino, MATLAB" />
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
+  <img src="https://img.shields.io/badge/PCB%20Design-2E7D32?style=for-the-badge" alt="PCB Design" />
+</p>
 
 **Tools**
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" alt="Tools" />
-&nbsp;
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" alt="Git, GitHub, VS Code" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
+</p>
 
 ---
 
