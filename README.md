@@ -9,7 +9,6 @@
 
 <br/>
 
-![Profile views](https://komarev.com/ghpvc/?username=aniketkharose&label=Profile%20views&color=8B5CF6&style=for-the-badge)
 ![Open to](https://img.shields.io/badge/Open%20to-AI%2FML%20%26%20Embedded%20Internships-10B981?style=for-the-badge)
 
 </div>
