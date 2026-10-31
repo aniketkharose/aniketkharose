@@ -10,6 +10,8 @@
 <br/>
 
 ![Open to](https://img.shields.io/badge/Open%20to-AI%2FML%20%26%20Embedded%20Internships-10B981?style=for-the-badge)
+![Location](https://img.shields.io/badge/Based%20in-Pune%2C%20India-8B5CF6?style=for-the-badge)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View%20Live-0D1117?style=for-the-badge&logo=vercel&logoColor=white)](https://aniket-portfolio-lime.vercel.app/)
 
 </div>
 
@@ -23,11 +25,12 @@ My sweet spot is where **machine learning meets hardware**: computer vision on o
 
 ```python
 class Aniket:
-    role     = "AI/ML + Embedded Systems Engineer (in the making)"
-    college  = "SKNCOE, Pune"
-    focus    = ["Computer Vision", "Edge AI", "Embedded Systems", "NLP"]
-    loves    = ["shipping real projects", "turning ideas into live demos"]
-    looking  = "AI/ML and Embedded Systems internships"
+    role      = "AI/ML + Embedded Systems Engineer (in the making)"
+    college   = "SKNCOE, Pune"
+    focus     = ["Computer Vision", "Edge AI", "Embedded Systems", "NLP"]
+    loves     = ["shipping real projects", "turning ideas into live demos"]
+    currently = "Running ML models on ESP32 and microcontrollers"
+    looking   = "AI/ML and Embedded Systems internships"
 ```
 
 ---
@@ -75,6 +78,25 @@ Real-time **pose detection** with **form feedback** and **AI voice coaching** fo
 </tr>
 </table>
 
+<!--
+═══════════════ 🎬 DEMO GIFS (OPTIONAL, DISABLED BY DEFAULT) ═══════════════
+How to enable:
+1. Record a 5-10 second screen recording of each project (ScreenToGif works well on Windows).
+2. Create an "assets" folder in this repo and upload the GIFs with the names below.
+3. Delete the opening and closing comment lines around this block so it renders.
+
+### 🎬 See it in action
+
+<div align="center">
+<table>
+<tr>
+<td align="center"><img src="assets/snapclass-demo.gif" width="320" alt="SnapClass demo" /><br/><sub>📸 SnapClass: face + voice attendance</sub></td>
+<td align="center"><img src="assets/gym-coach-demo.gif" width="320" alt="AI Gym Coach demo" /><br/><sub>🏋️ AI Gym Coach: live form feedback</sub></td>
+</tr>
+</table>
+</div>
+-->
+
 ### 🔬 What each project taught me
 
 | Project | The interesting challenge |
@@ -82,6 +104,57 @@ Real-time **pose detection** with **form feedback** and **AI voice coaching** fo
 | 🧠 **AI Resume ATS** | Deployed on a 512 MB free tier. Replaced a heavy transformer with a lightweight TF-IDF matcher to stop out-of-memory crashes. |
 | 📸 **SnapClass** | Combined two biometric pipelines: Dlib embeddings with an SVM for faces, and Resemblyzer embeddings for voices. |
 | 🏋️ **AI Gym Coach** | Turned live pose landmarks into real-time form feedback and spoken coaching. |
+
+### 🧩 How they work (click to expand)
+
+<details>
+<summary><b>🧠 AI Resume ATS: architecture</b></summary>
+
+<br/>
+
+```mermaid
+flowchart LR
+    U["🖥️ Streamlit UI"] --> A["⚙️ FastAPI backend"]
+    A --> N["🔎 spaCy text processing"]
+    N --> T["📐 TF-IDF matching"]
+    T --> S["🎯 ATS score and skill match"]
+    S --> R["📥 Recommendations and PDF report"]
+    A --> D["☁️ Supabase"]
+```
+
+</details>
+
+<details>
+<summary><b>📸 SnapClass: architecture</b></summary>
+
+<br/>
+
+```mermaid
+flowchart LR
+    C["📷 Camera"] --> F["Dlib face embedding"] --> S["SVM classifier"]
+    V["🎤 Voice sample"] --> R["Resemblyzer voice embedding"]
+    S --> M["✅ Attendance marked"]
+    R --> M
+    M --> D["☁️ Supabase"]
+    D --> P["🧑‍🏫 Student and teacher portals"]
+```
+
+</details>
+
+<details>
+<summary><b>🏋️ AI Gym Coach: architecture</b></summary>
+
+<br/>
+
+```mermaid
+flowchart LR
+    W["🎥 Webcam"] --> O["OpenCV frames"] --> M["MediaPipe pose landmarks"]
+    M --> A["📐 Form analysis"]
+    A --> V["🖥️ Live feedback on Streamlit"]
+    A --> S["🔊 AI voice coaching"]
+```
+
+</details>
 
 ---
 
@@ -107,6 +180,15 @@ flowchart LR
 ```
 
 Right now I'm exploring how to run **ML models directly on ESP32 and microcontrollers**, bringing together my E&TC background and my AI work.
+
+### 🛠️ Currently Building
+
+<!-- Edit the statuses below as your work moves forward -->
+
+| Status | What | Goal |
+|---|---|---|
+| 🟡 In progress | ESP32 + on-device ML (TinyML) | Run a small model directly on a microcontroller |
+| 🔜 Next | First Edge AI demo project | Ship it live and feature it above |
 
 ---
 
@@ -165,10 +247,24 @@ Right now I'm exploring how to run **ML models directly on ESP32 and microcontro
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=aniketkharose&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aniketkharose&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA" alt="Top languages" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=aniketkharose&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6&border_radius=12" alt="GitHub stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aniketkharose&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&border_radius=12" alt="Top languages" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=aniketkharose&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=A78BFA&currStreakLabel=A78BFA" alt="Streak stats" />
+<img src="https://streak-stats.demolab.com/?user=aniketkharose&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=A78BFA&currStreakLabel=A78BFA&border_radius=12" alt="Streak stats" />
+
+</div>
+
+### 🐍 My Contribution Snake
+
+<!-- This image appears after the snake workflow has run once (see .github/workflows/snake.yml) -->
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aniketkharose/aniketkharose/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aniketkharose/aniketkharose/output/github-snake.svg" />
+  <img alt="Snake eating my GitHub contributions" src="https://raw.githubusercontent.com/aniketkharose/aniketkharose/output/github-snake-dark.svg" />
+</picture>
 
 </div>
 
@@ -183,6 +279,7 @@ I'm actively looking for **AI/ML and Embedded Systems internships**. If you're b
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Aniket%20Kharose-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aniket-kharose-3287242a5)
 [![Email](https://img.shields.io/badge/Email-aniketk8010%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aniketk8010@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-aniketkharose-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aniketkharose)
+[![Portfolio](https://img.shields.io/badge/Portfolio-aniket--portfolio--lime.vercel.app-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](https://aniket-portfolio-lime.vercel.app/)
 
 <br/>
 
